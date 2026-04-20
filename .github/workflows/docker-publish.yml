@@ -44,9 +44,6 @@ jobs:
           
       - name: Install dependencies
         run: npm install
-        
-      - name: Build extension (generates /dist)
-        run: npm run build  # This step generates the /dist directory
        
       # Install the cosign tool except on PR
       # https://github.com/sigstore/cosign-installer
